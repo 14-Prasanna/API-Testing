@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  All API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 17 21:44:29 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24610 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.http.Base_Api_Test.get_base()'><b>get_base</b><br>Test class: com.http.Base_Api_Test</td>
+<td></td>
+<td>2</td>
+<td>com.http.Base_Api_Test@9f116cc</td></tr>
+<tr>
+<td title='com.crud.create_api.GetNoteById()'><b>GetNoteById</b><br>Test class: com.crud.create_api<br>Test method: Get created note by note ID</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.crud.create_api.TogglePinNoteById()'><b>TogglePinNoteById</b><br>Test class: com.crud.create_api<br>Test method: Toggle pin status of note by note ID</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.crud.create_api.GetAllNotes()'><b>GetAllNotes</b><br>Test class: com.crud.create_api<br>Test method: Get all notes with pagination query parameters</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.http.getCourse.get_course()'><b>get_course</b><br>Test class: com.http.getCourse</td>
+<td></td>
+<td>2</td>
+<td>com.http.getCourse@6b81ce95</td></tr>
+<tr>
+<td title='com.crud.create_api.UpdateNoteById()'><b>UpdateNoteById</b><br>Test class: com.crud.create_api<br>Test method: Update note details by note ID</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.crud.create_api.DeleteNoteById()'><b>DeleteNoteById</b><br>Test class: com.crud.create_api<br>Test method: Delete note by note ID</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.http.getInsitiution.getAllInsititute()'><b>getAllInsititute</b><br>Test class: com.http.getInsitiution</td>
+<td></td>
+<td>1</td>
+<td>com.http.getInsitiution@2a798d51</td></tr>
+<tr>
+<td title='com.crud.create_api.Create()'><b>Create</b><br>Test class: com.crud.create_api<br>Test method: Create a new note using valid bearer token</td>
+<td></td>
+<td>1</td>
+<td>com.crud.create_api@37afeb11</td></tr>
+<tr>
+<td title='com.http.loginAPi.ValidLogin()'><b>ValidLogin</b><br>Test class: com.http.loginAPi</td>
+<td></td>
+<td>5</td>
+<td>com.http.loginAPi@52bf72b5</td></tr>
+<tr>
+<td title='com.http.GetRoles.getRoles()'><b>getRoles</b><br>Test class: com.http.GetRoles<br>Test method: get All roles </td>
+<td></td>
+<td>0</td>
+<td>com.http.GetRoles@6d763516</td></tr>
+</table><p>
+</body>
+</html>

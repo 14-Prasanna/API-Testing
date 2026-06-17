@@ -1,0 +1,4834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="25.507" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Smart_API\target\test-classes;D:\Smart_API\target\classes;C:\Users\prasa\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\prasa\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\prasa\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\prasa\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\prasa\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prasa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prasa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prasa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\prasa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prasa\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\prasa\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\prasa\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\prasa\.m2\repository\org\json\json\20260522\json-20260522.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.0\jackson-databind-2.22.0.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.0\jackson-core-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\prasa\AppData\Local\Temp\surefire4297543244378180605\surefirebooter-20260617214427828_3.jar C:\Users\prasa\AppData\Local\Temp\surefire4297543244378180605 2026-06-17T21-44-27_592-jvmRun1 surefire-20260617214427828_1tmp surefire_0-20260617214427828_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Smart_API\target\test-classes;D:\Smart_API\target\classes;C:\Users\prasa\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\prasa\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\prasa\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\prasa\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\prasa\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\prasa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prasa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prasa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\prasa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\prasa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\prasa\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\prasa\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\prasa\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\prasa\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\prasa\.m2\repository\org\json\json\20260522\json-20260522.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.0\jackson-databind-2.22.0.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\prasa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.0\jackson-core-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prasa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Smart_API"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\prasa\AppData\Local\Temp\surefire4297543244378180605\surefirebooter-20260617214427828_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="prasa"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\prasa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\prasa\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="D:\Smart_API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;Users\prasa\npm-global;Program Files\Git\cmd;Program Files\Git\bin;D:\Python-3.10.15\Python-3.10.15;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\prasa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-21\bin;C:\TDM-GCC-64\bin;C:\TDM-GCC-64\bin;D:\Git\cmd;C:\Program Files\apache-maven-3.9.13\bin;C:\Program Files\Java\jdk-21\bin\java.exe;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\prasa\scoop\shims\allure.cmd;C:\Users\prasa\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0;C:\Python312\python.exe;C:\Users\prasa\scoop\shims;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prasa\AppData\Local\Microsoft\WindowsApps;Users\prasa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prasa\AppData\Roaming\nvm;C:\nvm4w\nodejs;C:\Users\prasa\.bun\bin;C:\Users\prasa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;C:\Users\prasa\AppData\Roaming\nvm;C:\Users\prasa\AppData\Roaming\nvm\v20.19.0;C:\Program Files\nodejs;C:\Program Files\apache-maven-3.9.13\bin;D:\Final_year_project-main\Antigravity\bin;D:\cursor\resources\app\bin;C:\Program Files\JetBrains\PyCharm 2026.1.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="get_base" classname="com.http.Base_Api_Test" time="2.849">
+    <system-out><![CDATA[Base URL set
+The status code: 200
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="ValidLogin" classname="com.http.loginAPi" time="5.348">
+    <system-out><![CDATA[Closing the Testing
+
+Base URL set
+Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzM4NGE2NmFiZjZjNTUwZmU0NWY3NSIsImlhdCI6MTc4MTcxMjg3NiwiZXhwIjoxNzgxOTcyMDc2fQ.TkYiZRbFQCtPbLeCqfNH0tH1N40hXQDponzPyE1ecpE
+]]></system-out>
+  </testcase>
+  <testcase name="Create" classname="com.crud.create_api" time="1.809">
+    <system-out><![CDATA[Closing the Testing
+
+Base URL set
+HTTP/1.1 201 Created
+Date: Wed, 17 Jun 2026 16:14:39 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+cf-cache-status: DYNAMIC
+etag: W/"140-fcg350zEeV1dxxacK8yu7ko64z0"
+rndr-id: 5775fd02-ded6-451e
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+CF-RAY: a0d359342a277f37-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "Note created successfully",
+    "data": {
+        "title": "Creating_Muhi",
+        "content": "Muhindhar.... ",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:39.594Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:39.595Z"
+    }
+}
+Created Note ID: 6a32c7efd1c35dfced3970f6
+{
+    "success": true,
+    "message": "Note created successfully",
+    "data": {
+        "title": "Creating_Muhi",
+        "content": "Muhindhar.... ",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:39.594Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:39.595Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetNoteById" classname="com.crud.create_api" time="1.968">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:41 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+etag: W/"11a-Ig6mXwxWJkvgj3gipMVA0zgUIHk"
+rndr-id: 4e8066c8-3800-4070
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: a0d3593fc8c58c14-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "data": {
+        "title": "Creating_Muhi",
+        "content": "Muhindhar.... ",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:39.594Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:39.595Z"
+    }
+}
+{
+    "success": true,
+    "data": {
+        "title": "Creating_Muhi",
+        "content": "Muhindhar.... ",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:39.594Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:39.595Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateNoteById" classname="com.crud.create_api" time="1.882">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+etag: W/"148-Xe5+KntSl5IKT2ifgSOOmtSPwfk"
+rndr-id: 79d7694a-8436-4b94
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: a0d3594be8bb1431-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "Note updated successfully",
+    "data": {
+        "title": "API Test Note Edited",
+        "content": "Updated content",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:43.370Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:43.371Z"
+    }
+}
+{
+    "success": true,
+    "message": "Note updated successfully",
+    "data": {
+        "title": "API Test Note Edited",
+        "content": "Updated content",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": true,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:43.370Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:43.371Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetAllNotes" classname="com.crud.create_api" time="1.966">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+cf-cache-status: DYNAMIC
+etag: W/"25c1-5P9+QJ24BVZzvGhxHwlseMPiMbI"
+rndr-id: aecbf778-63da-4ce6
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+Content-Encoding: gzip
+CF-RAY: a0d35958180d7e69-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "data": [
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T16:14:43.370Z",
+            "_id": "6a32c7efd1c35dfced3970f6",
+            "createdAt": "2026-06-17T16:14:39.595Z",
+            "updatedAt": "2026-06-17T16:14:43.371Z"
+        },
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T16:12:08.843Z",
+            "_id": "6a32c750d1c35dfced396dd2",
+            "createdAt": "2026-06-17T16:12:00.159Z",
+            "updatedAt": "2026-06-17T16:12:08.841Z"
+        },
+        {
+            "title": "Daily Standup Notes",
+            "content": "Discussed project progress, blockers, and next sprint tasks.",
+            "tags": [
+                "meeting",
+                "scrum",
+                "development"
+            ],
+            "isPinned": true,
+            "color": "#4A90E2",
+            "lastEdited": "2026-06-17T14:41:10.819Z",
+            "_id": "6a32b2062900dbea5680b9d4",
+            "createdAt": "2026-06-17T14:41:10.819Z",
+            "updatedAt": "2026-06-17T14:41:10.819Z"
+        },
+        {
+            "title": "Daily Standup Notes",
+            "content": "Discussed project progress, blockers, and next sprint tasks.",
+            "tags": [
+                "meeting",
+                "scrum",
+                "development"
+            ],
+            "isPinned": true,
+            "color": "#4A90E2",
+            "lastEdited": "2026-06-17T14:39:14.214Z",
+            "_id": "6a32b1922900dbea5680b970",
+            "createdAt": "2026-06-17T14:39:14.214Z",
+            "updatedAt": "2026-06-17T14:39:14.214Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:38:14.245Z",
+            "_id": "6a32b1562900dbea5680b90e",
+            "createdAt": "2026-06-17T14:38:14.246Z",
+            "updatedAt": "2026-06-17T14:38:14.246Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:36:48.786Z",
+            "_id": "6a32b1002900dbea5680b82d",
+            "createdAt": "2026-06-17T14:36:48.786Z",
+            "updatedAt": "2026-06-17T14:36:48.786Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:35:58.621Z",
+            "_id": "6a32b0ce2900dbea5680b7cf",
+            "createdAt": "2026-06-17T14:35:58.621Z",
+            "updatedAt": "2026-06-17T14:35:58.621Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:34:44.518Z",
+            "_id": "6a32b0842900dbea5680b6f6",
+            "createdAt": "2026-06-17T14:34:44.519Z",
+            "updatedAt": "2026-06-17T14:34:44.519Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:32:39.575Z",
+            "_id": "6a32b0072900dbea5680b69b",
+            "createdAt": "2026-06-17T14:32:39.577Z",
+            "updatedAt": "2026-06-17T14:32:39.577Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T13:45:15.027Z",
+            "_id": "6a32a4ebb7e5dacc86cbf2fe",
+            "createdAt": "2026-06-17T13:45:15.028Z",
+            "updatedAt": "2026-06-17T13:45:15.028Z"
+        },
+        {
+            "title": "demoTestNote",
+            "content": "Created by sriram",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:40:29.511Z",
+            "_id": "6a324f6dd22ace8c6bac4265",
+            "createdAt": "2026-06-17T07:40:29.513Z",
+            "updatedAt": "2026-06-17T07:40:29.513Z"
+        },
+        {
+            "title": "demoTestNote",
+            "content": "Created by sriram",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:38:56.927Z",
+            "_id": "6a324f10d22ace8c6bac4124",
+            "createdAt": "2026-06-17T07:38:56.928Z",
+            "updatedAt": "2026-06-17T07:38:56.928Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:38:15.079Z",
+            "_id": "6a324ee7d22ace8c6bac4024",
+            "createdAt": "2026-06-17T07:38:15.079Z",
+            "updatedAt": "2026-06-17T07:38:15.079Z"
+        },
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:36:14.693Z",
+            "_id": "6a324e6ad22ace8c6bac3c40",
+            "createdAt": "2026-06-17T07:36:10.916Z",
+            "updatedAt": "2026-06-17T07:36:14.693Z"
+        },
+        {
+            "title": "API testing",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:36:13.428Z",
+            "_id": "6a324e6dd22ace8c6bac3cc8",
+            "createdAt": "2026-06-17T07:36:13.429Z",
+            "updatedAt": "2026-06-17T07:36:13.429Z"
+        },
+        {
+            "title": "Creating_Muhi",
+            "content": "Muhindhar.... ",
+            "tags": [
+                "Muhindhar ............................."
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:31:09.917Z",
+            "_id": "6a324d3dd22ace8c6bac382b",
+            "createdAt": "2026-06-17T07:31:09.917Z",
+            "updatedAt": "2026-06-17T07:31:09.917Z"
+        },
+        {
+            "title": "Creating_Tamil",
+            "content": "TamilKumar.... ",
+            "tags": [
+                "tamilKumar --  ----- ------ __________________"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:29:29.433Z",
+            "_id": "6a324cd9d22ace8c6bac3682",
+            "createdAt": "2026-06-17T07:29:29.433Z",
+            "updatedAt": "2026-06-17T07:29:29.433Z"
+        },
+        {
+            "title": "Creating_Jeeeva",
+            "content": "sooka iruka jeeva ",
+            "tags": [
+                "Jeeva --- Developer -- Tester --- Next Expleo Guru"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:26:02.577Z",
+            "_id": "6a324c0ad22ace8c6bac3386",
+            "createdAt": "2026-06-17T07:26:02.577Z",
+            "updatedAt": "2026-06-17T07:26:02.577Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:16:09.225Z",
+            "_id": "6a3249b9d22ace8c6bac2bf6",
+            "createdAt": "2026-06-17T07:16:09.225Z",
+            "updatedAt": "2026-06-17T07:16:09.225Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:15:46.576Z",
+            "_id": "6a3249a2d22ace8c6bac2aea",
+            "createdAt": "2026-06-17T07:15:46.576Z",
+            "updatedAt": "2026-06-17T07:15:46.576Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:14:08.624Z",
+            "_id": "6a324940d22ace8c6bac26e9",
+            "createdAt": "2026-06-17T07:14:08.624Z",
+            "updatedAt": "2026-06-17T07:14:08.624Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:13:40.517Z",
+            "_id": "6a324924d22ace8c6bac25d5",
+            "createdAt": "2026-06-17T07:13:40.517Z",
+            "updatedAt": "2026-06-17T07:13:40.517Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:09:30.092Z",
+            "_id": "6a32482ad22ace8c6bac2414",
+            "createdAt": "2026-06-17T07:09:30.092Z",
+            "updatedAt": "2026-06-17T07:09:30.092Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:07:47.268Z",
+            "_id": "6a3247c3d22ace8c6bac2251",
+            "createdAt": "2026-06-17T07:07:47.268Z",
+            "updatedAt": "2026-06-17T07:07:47.268Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:06:39.677Z",
+            "_id": "6a32477fd22ace8c6bac205d",
+            "createdAt": "2026-06-17T07:06:39.677Z",
+            "updatedAt": "2026-06-17T07:06:39.677Z"
+        },
+        {
+            "title": "Prassna",
+            "content": "he is a boy",
+            "tags": [
+                "['tester','developer']"
+            ],
+            "isPinned": true,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:00:49.687Z",
+            "_id": "6a324621d22ace8c6bac1e03",
+            "createdAt": "2026-06-17T07:00:49.687Z",
+            "updatedAt": "2026-06-17T07:00:49.687Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:59:35.175Z",
+            "_id": "6a3245d7d22ace8c6bac1d46",
+            "createdAt": "2026-06-17T06:59:35.175Z",
+            "updatedAt": "2026-06-17T06:59:35.175Z"
+        },
+        {
+            "title": "Prassna",
+            "content": "he is a boy",
+            "tags": [
+                "['tester','developer']"
+            ],
+            "isPinned": true,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:54:56.957Z",
+            "_id": "6a3244c0d22ace8c6bac19e5",
+            "createdAt": "2026-06-17T06:54:56.957Z",
+            "updatedAt": "2026-06-17T06:54:56.957Z"
+        },
+        {
+            "title": "notes",
+            "content": "created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "green",
+            "lastEdited": "2026-06-17T06:48:52.416Z",
+            "_id": "6a324354d22ace8c6bac146f",
+            "createdAt": "2026-06-17T06:48:52.416Z",
+            "updatedAt": "2026-06-17T06:48:52.416Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:47:31.634Z",
+            "_id": "6a324303d22ace8c6bac13c4",
+            "createdAt": "2026-06-17T06:47:31.634Z",
+            "updatedAt": "2026-06-17T06:47:31.634Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:47:26.063Z",
+            "_id": "6a3242fed22ace8c6bac136d",
+            "createdAt": "2026-06-17T06:47:26.064Z",
+            "updatedAt": "2026-06-17T06:47:26.064Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:46:46.812Z",
+            "_id": "6a3242d6d22ace8c6bac1318",
+            "createdAt": "2026-06-17T06:46:46.813Z",
+            "updatedAt": "2026-06-17T06:46:46.813Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:45:05.192Z",
+            "_id": "6a324271d22ace8c6bac11a0",
+            "createdAt": "2026-06-17T06:45:05.193Z",
+            "updatedAt": "2026-06-17T06:45:05.193Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:42:27.696Z",
+            "_id": "6a3241d1d22ace8c6bac0f94",
+            "createdAt": "2026-06-17T06:42:25.824Z",
+            "updatedAt": "2026-06-17T06:42:27.696Z"
+        },
+        {
+            "title": "Updated Note",
+            "content": "Updated Content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:42:01.003Z",
+            "_id": "6a3241b7d22ace8c6bac0ec4",
+            "createdAt": "2026-06-17T06:41:59.095Z",
+            "updatedAt": "2026-06-17T06:42:01.004Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:41:18.604Z",
+            "_id": "6a32418ed22ace8c6bac0e78",
+            "createdAt": "2026-06-17T06:41:18.605Z",
+            "updatedAt": "2026-06-17T06:41:18.605Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:28:17.846Z",
+            "_id": "6a323e81d22ace8c6bac074a",
+            "createdAt": "2026-06-17T06:28:17.846Z",
+            "updatedAt": "2026-06-17T06:28:17.846Z"
+        }
+    ],
+    "pagination": {
+        "currentPage": 1,
+        "totalPages": 1,
+        "totalNotes": 37,
+        "hasNext": false,
+        "hasPrev": false
+    }
+}
+{
+    "success": true,
+    "data": [
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T16:14:43.370Z",
+            "_id": "6a32c7efd1c35dfced3970f6",
+            "createdAt": "2026-06-17T16:14:39.595Z",
+            "updatedAt": "2026-06-17T16:14:43.371Z"
+        },
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T16:12:08.843Z",
+            "_id": "6a32c750d1c35dfced396dd2",
+            "createdAt": "2026-06-17T16:12:00.159Z",
+            "updatedAt": "2026-06-17T16:12:08.841Z"
+        },
+        {
+            "title": "Daily Standup Notes",
+            "content": "Discussed project progress, blockers, and next sprint tasks.",
+            "tags": [
+                "meeting",
+                "scrum",
+                "development"
+            ],
+            "isPinned": true,
+            "color": "#4A90E2",
+            "lastEdited": "2026-06-17T14:41:10.819Z",
+            "_id": "6a32b2062900dbea5680b9d4",
+            "createdAt": "2026-06-17T14:41:10.819Z",
+            "updatedAt": "2026-06-17T14:41:10.819Z"
+        },
+        {
+            "title": "Daily Standup Notes",
+            "content": "Discussed project progress, blockers, and next sprint tasks.",
+            "tags": [
+                "meeting",
+                "scrum",
+                "development"
+            ],
+            "isPinned": true,
+            "color": "#4A90E2",
+            "lastEdited": "2026-06-17T14:39:14.214Z",
+            "_id": "6a32b1922900dbea5680b970",
+            "createdAt": "2026-06-17T14:39:14.214Z",
+            "updatedAt": "2026-06-17T14:39:14.214Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:38:14.245Z",
+            "_id": "6a32b1562900dbea5680b90e",
+            "createdAt": "2026-06-17T14:38:14.246Z",
+            "updatedAt": "2026-06-17T14:38:14.246Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:36:48.786Z",
+            "_id": "6a32b1002900dbea5680b82d",
+            "createdAt": "2026-06-17T14:36:48.786Z",
+            "updatedAt": "2026-06-17T14:36:48.786Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:35:58.621Z",
+            "_id": "6a32b0ce2900dbea5680b7cf",
+            "createdAt": "2026-06-17T14:35:58.621Z",
+            "updatedAt": "2026-06-17T14:35:58.621Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:34:44.518Z",
+            "_id": "6a32b0842900dbea5680b6f6",
+            "createdAt": "2026-06-17T14:34:44.519Z",
+            "updatedAt": "2026-06-17T14:34:44.519Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T14:32:39.575Z",
+            "_id": "6a32b0072900dbea5680b69b",
+            "createdAt": "2026-06-17T14:32:39.577Z",
+            "updatedAt": "2026-06-17T14:32:39.577Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T13:45:15.027Z",
+            "_id": "6a32a4ebb7e5dacc86cbf2fe",
+            "createdAt": "2026-06-17T13:45:15.028Z",
+            "updatedAt": "2026-06-17T13:45:15.028Z"
+        },
+        {
+            "title": "demoTestNote",
+            "content": "Created by sriram",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:40:29.511Z",
+            "_id": "6a324f6dd22ace8c6bac4265",
+            "createdAt": "2026-06-17T07:40:29.513Z",
+            "updatedAt": "2026-06-17T07:40:29.513Z"
+        },
+        {
+            "title": "demoTestNote",
+            "content": "Created by sriram",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:38:56.927Z",
+            "_id": "6a324f10d22ace8c6bac4124",
+            "createdAt": "2026-06-17T07:38:56.928Z",
+            "updatedAt": "2026-06-17T07:38:56.928Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:38:15.079Z",
+            "_id": "6a324ee7d22ace8c6bac4024",
+            "createdAt": "2026-06-17T07:38:15.079Z",
+            "updatedAt": "2026-06-17T07:38:15.079Z"
+        },
+        {
+            "title": "API Test Note Edited",
+            "content": "Updated content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:36:14.693Z",
+            "_id": "6a324e6ad22ace8c6bac3c40",
+            "createdAt": "2026-06-17T07:36:10.916Z",
+            "updatedAt": "2026-06-17T07:36:14.693Z"
+        },
+        {
+            "title": "API testing",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:36:13.428Z",
+            "_id": "6a324e6dd22ace8c6bac3cc8",
+            "createdAt": "2026-06-17T07:36:13.429Z",
+            "updatedAt": "2026-06-17T07:36:13.429Z"
+        },
+        {
+            "title": "Creating_Muhi",
+            "content": "Muhindhar.... ",
+            "tags": [
+                "Muhindhar ............................."
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:31:09.917Z",
+            "_id": "6a324d3dd22ace8c6bac382b",
+            "createdAt": "2026-06-17T07:31:09.917Z",
+            "updatedAt": "2026-06-17T07:31:09.917Z"
+        },
+        {
+            "title": "Creating_Tamil",
+            "content": "TamilKumar.... ",
+            "tags": [
+                "tamilKumar --  ----- ------ __________________"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:29:29.433Z",
+            "_id": "6a324cd9d22ace8c6bac3682",
+            "createdAt": "2026-06-17T07:29:29.433Z",
+            "updatedAt": "2026-06-17T07:29:29.433Z"
+        },
+        {
+            "title": "Creating_Jeeeva",
+            "content": "sooka iruka jeeva ",
+            "tags": [
+                "Jeeva --- Developer -- Tester --- Next Expleo Guru"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:26:02.577Z",
+            "_id": "6a324c0ad22ace8c6bac3386",
+            "createdAt": "2026-06-17T07:26:02.577Z",
+            "updatedAt": "2026-06-17T07:26:02.577Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:16:09.225Z",
+            "_id": "6a3249b9d22ace8c6bac2bf6",
+            "createdAt": "2026-06-17T07:16:09.225Z",
+            "updatedAt": "2026-06-17T07:16:09.225Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:15:46.576Z",
+            "_id": "6a3249a2d22ace8c6bac2aea",
+            "createdAt": "2026-06-17T07:15:46.576Z",
+            "updatedAt": "2026-06-17T07:15:46.576Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:14:08.624Z",
+            "_id": "6a324940d22ace8c6bac26e9",
+            "createdAt": "2026-06-17T07:14:08.624Z",
+            "updatedAt": "2026-06-17T07:14:08.624Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:13:40.517Z",
+            "_id": "6a324924d22ace8c6bac25d5",
+            "createdAt": "2026-06-17T07:13:40.517Z",
+            "updatedAt": "2026-06-17T07:13:40.517Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T07:09:30.092Z",
+            "_id": "6a32482ad22ace8c6bac2414",
+            "createdAt": "2026-06-17T07:09:30.092Z",
+            "updatedAt": "2026-06-17T07:09:30.092Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:07:47.268Z",
+            "_id": "6a3247c3d22ace8c6bac2251",
+            "createdAt": "2026-06-17T07:07:47.268Z",
+            "updatedAt": "2026-06-17T07:07:47.268Z"
+        },
+        {
+            "title": "Creating_new",
+            "content": "Summa",
+            "tags": [
+                "67"
+            ],
+            "isPinned": true,
+            "color": "#ffffbf",
+            "lastEdited": "2026-06-17T07:06:39.677Z",
+            "_id": "6a32477fd22ace8c6bac205d",
+            "createdAt": "2026-06-17T07:06:39.677Z",
+            "updatedAt": "2026-06-17T07:06:39.677Z"
+        },
+        {
+            "title": "Prassna",
+            "content": "he is a boy",
+            "tags": [
+                "['tester','developer']"
+            ],
+            "isPinned": true,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T07:00:49.687Z",
+            "_id": "6a324621d22ace8c6bac1e03",
+            "createdAt": "2026-06-17T07:00:49.687Z",
+            "updatedAt": "2026-06-17T07:00:49.687Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:59:35.175Z",
+            "_id": "6a3245d7d22ace8c6bac1d46",
+            "createdAt": "2026-06-17T06:59:35.175Z",
+            "updatedAt": "2026-06-17T06:59:35.175Z"
+        },
+        {
+            "title": "Prassna",
+            "content": "he is a boy",
+            "tags": [
+                "['tester','developer']"
+            ],
+            "isPinned": true,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:54:56.957Z",
+            "_id": "6a3244c0d22ace8c6bac19e5",
+            "createdAt": "2026-06-17T06:54:56.957Z",
+            "updatedAt": "2026-06-17T06:54:56.957Z"
+        },
+        {
+            "title": "notes",
+            "content": "created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "green",
+            "lastEdited": "2026-06-17T06:48:52.416Z",
+            "_id": "6a324354d22ace8c6bac146f",
+            "createdAt": "2026-06-17T06:48:52.416Z",
+            "updatedAt": "2026-06-17T06:48:52.416Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:47:31.634Z",
+            "_id": "6a324303d22ace8c6bac13c4",
+            "createdAt": "2026-06-17T06:47:31.634Z",
+            "updatedAt": "2026-06-17T06:47:31.634Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:47:26.063Z",
+            "_id": "6a3242fed22ace8c6bac136d",
+            "createdAt": "2026-06-17T06:47:26.064Z",
+            "updatedAt": "2026-06-17T06:47:26.064Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:46:46.812Z",
+            "_id": "6a3242d6d22ace8c6bac1318",
+            "createdAt": "2026-06-17T06:46:46.813Z",
+            "updatedAt": "2026-06-17T06:46:46.813Z"
+        },
+        {
+            "title": "Untitled Note",
+            "content": "",
+            "tags": [
+                
+            ],
+            "isPinned": false,
+            "color": "#ffffff",
+            "lastEdited": "2026-06-17T06:45:05.192Z",
+            "_id": "6a324271d22ace8c6bac11a0",
+            "createdAt": "2026-06-17T06:45:05.193Z",
+            "updatedAt": "2026-06-17T06:45:05.193Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": true,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:42:27.696Z",
+            "_id": "6a3241d1d22ace8c6bac0f94",
+            "createdAt": "2026-06-17T06:42:25.824Z",
+            "updatedAt": "2026-06-17T06:42:27.696Z"
+        },
+        {
+            "title": "Updated Note",
+            "content": "Updated Content",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:42:01.003Z",
+            "_id": "6a3241b7d22ace8c6bac0ec4",
+            "createdAt": "2026-06-17T06:41:59.095Z",
+            "updatedAt": "2026-06-17T06:42:01.004Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by Tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:41:18.604Z",
+            "_id": "6a32418ed22ace8c6bac0e78",
+            "createdAt": "2026-06-17T06:41:18.605Z",
+            "updatedAt": "2026-06-17T06:41:18.605Z"
+        },
+        {
+            "title": "API Test Note",
+            "content": "Created by tester",
+            "tags": [
+                "qa",
+                "demo"
+            ],
+            "isPinned": false,
+            "color": "#ffeb3b",
+            "lastEdited": "2026-06-17T06:28:17.846Z",
+            "_id": "6a323e81d22ace8c6bac074a",
+            "createdAt": "2026-06-17T06:28:17.846Z",
+            "updatedAt": "2026-06-17T06:28:17.846Z"
+        }
+    ],
+    "pagination": {
+        "currentPage": 1,
+        "totalPages": 1,
+        "totalNotes": 37,
+        "hasNext": false,
+        "hasPrev": false
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="TogglePinNoteById" classname="com.crud.create_api" time="1.934">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+etag: W/"14a-3ltqHzWnGxTdYUOaDuP47vMPDTw"
+rndr-id: 781b0593-943c-42d5
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: a0d359621efb6ce0-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "Note unpinned successfully",
+    "data": {
+        "title": "API Test Note Edited",
+        "content": "Updated content",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": false,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:47.338Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:47.250Z"
+    }
+}
+{
+    "success": true,
+    "message": "Note unpinned successfully",
+    "data": {
+        "title": "API Test Note Edited",
+        "content": "Updated content",
+        "tags": [
+            "qa",
+            "demo"
+        ],
+        "isPinned": false,
+        "color": "#ffffbf",
+        "lastEdited": "2026-06-17T16:14:47.338Z",
+        "_id": "6a32c7efd1c35dfced3970f6",
+        "createdAt": "2026-06-17T16:14:39.595Z",
+        "updatedAt": "2026-06-17T16:14:47.250Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteNoteById" classname="com.crud.create_api" time="1.741">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+etag: W/"72-HIH/5YFoF6w/klZrdwPmTc2LnzM"
+rndr-id: 60bfe8ce-3e9e-464b
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: a0d3596fff7fc784-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "Notes deleted successfully",
+    "deletedCount": 1,
+    "deletedIds": [
+        "6a32c7efd1c35dfced3970f6"
+    ]
+}
+{
+    "success": true,
+    "message": "Notes deleted successfully",
+    "deletedCount": 1,
+    "deletedIds": [
+        "6a32c7efd1c35dfced3970f6"
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="get_course" classname="com.http.getCourse" time="2.78">
+    <system-out><![CDATA[Closing the Testing
+
+Base URL set
+HTTP/1.1 200 OK
+Date: Wed, 17 Jun 2026 16:14:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-credentials: true
+access-control-expose-headers: Content-Length,Authorization
+etag: W/"587d-KofPUxmA+ZWKuqo9g2qQws/Zvq4"
+rndr-id: 320bef23-5c06-4b38
+Server: cloudflare
+vary: Origin
+vary: Accept-Encoding
+x-powered-by: Express
+x-render-origin-server: Render
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: a0d3597b8bd5f3eb-MAA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": [
+        {
+            "key": "success",
+            "value": "Course structures retrieved successfully"
+        }
+    ],
+    "data": [
+        {
+            "_id": "69c4bcd59c7dd1d8f5f92cde",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-001",
+            "courseName": "Mern Stack",
+            "courseDescription": "<p>hbh</p>",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": true
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": true,
+                        "maxSize": 10,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "courseHierarchy": [
+                "Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture",
+                "Theory",
+                "Live Classes"
+            ],
+            "We_Do": [
+                "Project Development",
+                "Assignments"
+            ],
+            "You_Do": [
+                "Projects",
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                {
+                    "user": "69c4c2309c7dd1d8f5f9452e",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T05:56:33.785Z",
+                    "updatedAt": "2026-03-26T05:56:33.785Z",
+                    "_id": "69c4ca914efb1debe8c27536"
+                },
+                {
+                    "user": "69c4c2549c7dd1d8f5f9459d",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T05:56:33.880Z",
+                    "updatedAt": "2026-03-26T05:56:33.880Z",
+                    "_id": "69c4ca914efb1debe8c27537"
+                },
+                {
+                    "user": "69c4d3895e343b3733a47001",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T06:45:24.360Z",
+                    "updatedAt": "2026-03-26T06:45:24.360Z",
+                    "_id": "69c4d604af2ccc7aa44d78eb"
+                }
+            ],
+            "createdAt": "2026-03-26T04:57:57.304Z",
+            "updatedAt": "2026-04-13T03:13:35.107Z",
+            "__v": 7,
+            "updatedBy": "sam@gmail.com",
+            "testConfiguration": {
+                "coreProgram": [
+                    "c",
+                    "cpp",
+                    "java"
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69c4d4af3f8929893798ddc3",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-004",
+            "courseName": "Full Stack",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6a"
+                    },
+                    "aiChat": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6b"
+                    },
+                    "aiSummary": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6c"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6d"
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de72"
+                    },
+                    "aiChat": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de73"
+                    },
+                    "aiSummary": {
+                        "enabled": true,
+                        "_id": "69c4d4bc3f8929893798de74"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de75"
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7a"
+                    },
+                    "aiChat": {
+                        "enabled": true,
+                        "_id": "69c4d4bc3f8929893798de7b"
+                    },
+                    "aiSummary": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7c"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7d"
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Assignments"
+            ],
+            "You_Do": [
+                "Projects"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-03-26T06:39:43.404Z",
+            "updatedAt": "2026-03-26T06:39:56.986Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "testConfiguration": {
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69d78058eaff6bb54e7fc96e",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-001",
+            "courseName": "123",
+            "courseDescription": "<p>v</p>",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "mcq": {
+                    "enabled": true
+                },
+                "programming": {
+                    "enabled": true,
+                    "languages": {
+                        "coreProgram": [
+                            "python"
+                        ],
+                        "frontend": [
+                            "js"
+                        ],
+                        "database": [
+                            
+                        ]
+                    }
+                },
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "courseHierarchy": [
+                "Module"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                
+            ],
+            "You_Do": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-04-09T10:32:56.966Z",
+            "updatedAt": "2026-04-09T11:33:10.624Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69d8bfc9b16b6be07ebe92f9",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "TD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-T-001",
+            "courseName": "edw",
+            "courseDescription": "<p>dew</p>",
+            "courseDuration": "",
+            "courseLevel": "Beginner",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "mcq": {
+                    "enabled": true
+                },
+                "programming": {
+                    "enabled": false,
+                    "languages": {
+                        "coreProgram": [
+                            
+                        ],
+                        "frontend": [
+                            
+                        ],
+                        "database": [
+                            
+                        ]
+                    }
+                },
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "courseHierarchy": [
+                "Module"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Practical"
+            ],
+            "You_Do": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-04-10T09:15:53.362Z",
+            "updatedAt": "2026-04-10T09:16:39.689Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69dc91007c3d3a09618d6edd",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-002",
+            "courseName": "skill set",
+            "courseDescription": "<p>My core skillset is centered around semantic HTML5 and modern CSS3, with a strong emphasis on writing clean, accessible, and maintainable markup. I structure content using meaningful elements like section, article, nav, and header to ensure logical document outlines and strong SEO foundations. My understanding of accessibility goes beyond basic alt text; I implement proper ARIA labels, focus management, and landmark roles to ensure interfaces are fully usable for screen reader and keyboard-only users. I treat HTML as the structural skeleton of the application, ensuring that the page remains functional and readable even before a single line of CSS is applied.\r\n\r\nOn the styling side, my CSS workflow is built around responsive design principles and scalable architecture. I leverage Flexbox and CSS Grid interchangeably to solve complex layout challenges, whether it's a dynamic card grid that reflows seamlessly or a sticky footer that stays put. I am proficient in writing modular CSS using methodologies like BEM (Block Element Modifier) or utility-first approaches to prevent specificity wars and keep stylesheets lean. Furthermore, I have deep experience with CSS custom properties for managing design tokens, and I utilize advanced selectors and pseudo-elements to reduce reliance on extraneous div containers.\r\n\r\nMy skillset extends to creating performant, polished user interfaces with meticulous attention to detail. I handle cross-browser compatibility issues proactively, ensuring that modern features like aspect-ratio or backdrop-filter degrade gracefully in older engines. I am comfortable building complex animations and micro-interactions using @keyframes, transitions, and the will-change property to maintain silky-smooth 60fps performance. This foundation in pure HTML and CSS allows me to collaborate effectively with JavaScript engineers, providing a robust, style-agnostic layer that is easy to extend and refactor as project requirements evolve.</p>",
+            "courseDuration": "",
+            "courseLevel": "Beginner",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": true
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": true,
+                        "maxSize": 10,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": true
+                    },
+                    "aiSummary": {
+                        "enabled": true
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": true
+                    },
+                    "aiSummary": {
+                        "enabled": true
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python",
+                    "c"
+                ],
+                "frontend": [
+                    "html",
+                    "css",
+                    "js",
+                    "react"
+                ],
+                "database": [
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic",
+                "Sub Topic"
+            ],
+            "I_Do": [
+                "Learning Resourses",
+                "References"
+            ],
+            "We_Do": [
+                "Assignments",
+                "Project Development"
+            ],
+            "You_Do": [
+                "Test Your Skills",
+                "Assesment",
+                "Self Work"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                {
+                    "user": "69c4c2309c7dd1d8f5f9452e",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-14T04:58:43.556Z",
+                    "updatedAt": "2026-04-14T04:58:43.556Z",
+                    "_id": "69ddc9835ffe77981e68934f"
+                },
+                {
+                    "user": "69c4d3895e343b3733a47001",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-19T05:51:19.495Z",
+                    "updatedAt": "2026-04-19T05:51:19.495Z",
+                    "_id": "69e46d579253d47581755f6d"
+                },
+                {
+                    "user": "69c4c2549c7dd1d8f5f9459d",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-20T04:48:24.238Z",
+                    "updatedAt": "2026-04-20T04:48:24.238Z",
+                    "_id": "69e5b018cbc558dc830a4a53"
+                },
+                {
+                    "user": "6a1fedcbb742443066ce7fe6",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:57.914Z",
+                    "updatedAt": "2026-06-03T09:05:57.914Z",
+                    "_id": "6a1fee76b742443066ce8a5e"
+                },
+                {
+                    "user": "6a1fedeab742443066ce8170",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:58.041Z",
+                    "updatedAt": "2026-06-03T09:05:58.041Z",
+                    "_id": "6a1fee76b742443066ce8a5f"
+                },
+                {
+                    "user": "6a1fee21b742443066ce85bf",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:58.042Z",
+                    "updatedAt": "2026-06-03T09:05:58.042Z",
+                    "_id": "6a1fee76b742443066ce8a60"
+                }
+            ],
+            "createdAt": "2026-04-13T06:45:20.289Z",
+            "updatedAt": "2026-06-03T09:05:58.044Z",
+            "__v": 4,
+            "updatedBy": "69c384a66abf6c550fe45f75",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "6a2fb9c41a1eeb7fc151606f",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-003",
+            "courseName": "Full Stack",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Advanced",
+            "courseImage": "https://llfqpwsrmbyngzoxheua.storage.supabase.co/storage/v1/object/public/smartlms/course/image/1781512643513_ChatGPTImageMay13202612_21_09PM.png",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python"
+                ],
+                "frontend": [
+                    "html",
+                    "js",
+                    "react",
+                    "next",
+                    "css"
+                ],
+                "database": [
+                    "mongodb",
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Theory",
+                "Lecture"
+            ],
+            "We_Do": [
+                "Practical",
+                "Assignments"
+            ],
+            "You_Do": [
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-06-15T08:37:24.501Z",
+            "updatedAt": "2026-06-15T08:37:24.501Z",
+            "__v": 4,
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "6a323a9cfcebb138f4f397d4",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "TD",
+            "category": "fullstack",
+            "courseCode": "APL-BTC-T-002",
+            "courseName": "python",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "courseImage": "https://llfqpwsrmbyngzoxheua.storage.supabase.co/storage/v1/object/public/smartlms/course/image/1781676699541_icons8-users-96.png",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python"
+                ],
+                "frontend": [
+                    "html",
+                    "css",
+                    "js",
+                    "react",
+                    "next"
+                ],
+                "database": [
+                    "mongodb",
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Assignments"
+            ],
+            "You_Do": [
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-06-17T06:11:40.333Z",
+            "updatedAt": "2026-06-17T06:11:40.333Z",
+            "__v": 0,
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        }
+    ]
+}
+{
+    "message": [
+        {
+            "key": "success",
+            "value": "Course structures retrieved successfully"
+        }
+    ],
+    "data": [
+        {
+            "_id": "69c4bcd59c7dd1d8f5f92cde",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-001",
+            "courseName": "Mern Stack",
+            "courseDescription": "<p>hbh</p>",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": true
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": true,
+                        "maxSize": 10,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "courseHierarchy": [
+                "Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture",
+                "Theory",
+                "Live Classes"
+            ],
+            "We_Do": [
+                "Project Development",
+                "Assignments"
+            ],
+            "You_Do": [
+                "Projects",
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                {
+                    "user": "69c4c2309c7dd1d8f5f9452e",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T05:56:33.785Z",
+                    "updatedAt": "2026-03-26T05:56:33.785Z",
+                    "_id": "69c4ca914efb1debe8c27536"
+                },
+                {
+                    "user": "69c4c2549c7dd1d8f5f9459d",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T05:56:33.880Z",
+                    "updatedAt": "2026-03-26T05:56:33.880Z",
+                    "_id": "69c4ca914efb1debe8c27537"
+                },
+                {
+                    "user": "69c4d3895e343b3733a47001",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-03-26T06:45:24.360Z",
+                    "updatedAt": "2026-03-26T06:45:24.360Z",
+                    "_id": "69c4d604af2ccc7aa44d78eb"
+                }
+            ],
+            "createdAt": "2026-03-26T04:57:57.304Z",
+            "updatedAt": "2026-04-13T03:13:35.107Z",
+            "__v": 7,
+            "updatedBy": "sam@gmail.com",
+            "testConfiguration": {
+                "coreProgram": [
+                    "c",
+                    "cpp",
+                    "java"
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69c4d4af3f8929893798ddc3",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-004",
+            "courseName": "Full Stack",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6a"
+                    },
+                    "aiChat": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6b"
+                    },
+                    "aiSummary": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6c"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de6d"
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de72"
+                    },
+                    "aiChat": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de73"
+                    },
+                    "aiSummary": {
+                        "enabled": true,
+                        "_id": "69c4d4bc3f8929893798de74"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de75"
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7a"
+                    },
+                    "aiChat": {
+                        "enabled": true,
+                        "_id": "69c4d4bc3f8929893798de7b"
+                    },
+                    "aiSummary": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7c"
+                    },
+                    "notes": {
+                        "enabled": false,
+                        "_id": "69c4d4bc3f8929893798de7d"
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Assignments"
+            ],
+            "You_Do": [
+                "Projects"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-03-26T06:39:43.404Z",
+            "updatedAt": "2026-03-26T06:39:56.986Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "testConfiguration": {
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69d78058eaff6bb54e7fc96e",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-001",
+            "courseName": "123",
+            "courseDescription": "<p>v</p>",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "mcq": {
+                    "enabled": true
+                },
+                "programming": {
+                    "enabled": true,
+                    "languages": {
+                        "coreProgram": [
+                            "python"
+                        ],
+                        "frontend": [
+                            "js"
+                        ],
+                        "database": [
+                            
+                        ]
+                    }
+                },
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "courseHierarchy": [
+                "Module"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                
+            ],
+            "You_Do": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-04-09T10:32:56.966Z",
+            "updatedAt": "2026-04-09T11:33:10.624Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69d8bfc9b16b6be07ebe92f9",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "TD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-T-001",
+            "courseName": "edw",
+            "courseDescription": "<p>dew</p>",
+            "courseDuration": "",
+            "courseLevel": "Beginner",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "mcq": {
+                    "enabled": true
+                },
+                "programming": {
+                    "enabled": false,
+                    "languages": {
+                        "coreProgram": [
+                            
+                        ],
+                        "frontend": [
+                            
+                        ],
+                        "database": [
+                            
+                        ]
+                    }
+                },
+                "coreProgram": [
+                    
+                ],
+                "frontend": [
+                    
+                ],
+                "database": [
+                    
+                ]
+            },
+            "courseHierarchy": [
+                "Module"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Practical"
+            ],
+            "You_Do": [
+                
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-04-10T09:15:53.362Z",
+            "updatedAt": "2026-04-10T09:16:39.689Z",
+            "__v": 0,
+            "updatedBy": "sam@gmail.com",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "69dc91007c3d3a09618d6edd",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-002",
+            "courseName": "skill set",
+            "courseDescription": "<p>My core skillset is centered around semantic HTML5 and modern CSS3, with a strong emphasis on writing clean, accessible, and maintainable markup. I structure content using meaningful elements like section, article, nav, and header to ensure logical document outlines and strong SEO foundations. My understanding of accessibility goes beyond basic alt text; I implement proper ARIA labels, focus management, and landmark roles to ensure interfaces are fully usable for screen reader and keyboard-only users. I treat HTML as the structural skeleton of the application, ensuring that the page remains functional and readable even before a single line of CSS is applied.\r\n\r\nOn the styling side, my CSS workflow is built around responsive design principles and scalable architecture. I leverage Flexbox and CSS Grid interchangeably to solve complex layout challenges, whether it's a dynamic card grid that reflows seamlessly or a sticky footer that stays put. I am proficient in writing modular CSS using methodologies like BEM (Block Element Modifier) or utility-first approaches to prevent specificity wars and keep stylesheets lean. Furthermore, I have deep experience with CSS custom properties for managing design tokens, and I utilize advanced selectors and pseudo-elements to reduce reliance on extraneous div containers.\r\n\r\nMy skillset extends to creating performant, polished user interfaces with meticulous attention to detail. I handle cross-browser compatibility issues proactively, ensuring that modern features like aspect-ratio or backdrop-filter degrade gracefully in older engines. I am comfortable building complex animations and micro-interactions using @keyframes, transitions, and the will-change property to maintain silky-smooth 60fps performance. This foundation in pure HTML and CSS allows me to collaborate effectively with JavaScript engineers, providing a robust, style-agnostic layer that is easy to extend and refactor as project requirements evolve.</p>",
+            "courseDuration": "",
+            "courseLevel": "Beginner",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": true
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": true,
+                        "maxSize": 20,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": true,
+                        "maxSize": 10,
+                        "aiChat": true,
+                        "aiSummary": true,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": true
+                    },
+                    "aiSummary": {
+                        "enabled": true
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": true
+                    },
+                    "aiSummary": {
+                        "enabled": true
+                    },
+                    "notes": {
+                        "enabled": true
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": true,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python",
+                    "c"
+                ],
+                "frontend": [
+                    "html",
+                    "css",
+                    "js",
+                    "react"
+                ],
+                "database": [
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic",
+                "Sub Topic"
+            ],
+            "I_Do": [
+                "Learning Resourses",
+                "References"
+            ],
+            "We_Do": [
+                "Assignments",
+                "Project Development"
+            ],
+            "You_Do": [
+                "Test Your Skills",
+                "Assesment",
+                "Self Work"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                {
+                    "user": "69c4c2309c7dd1d8f5f9452e",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-14T04:58:43.556Z",
+                    "updatedAt": "2026-04-14T04:58:43.556Z",
+                    "_id": "69ddc9835ffe77981e68934f"
+                },
+                {
+                    "user": "69c4d3895e343b3733a47001",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-19T05:51:19.495Z",
+                    "updatedAt": "2026-04-19T05:51:19.495Z",
+                    "_id": "69e46d579253d47581755f6d"
+                },
+                {
+                    "user": "69c4c2549c7dd1d8f5f9459d",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-04-20T04:48:24.238Z",
+                    "updatedAt": "2026-04-20T04:48:24.238Z",
+                    "_id": "69e5b018cbc558dc830a4a53"
+                },
+                {
+                    "user": "6a1fedcbb742443066ce7fe6",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:57.914Z",
+                    "updatedAt": "2026-06-03T09:05:57.914Z",
+                    "_id": "6a1fee76b742443066ce8a5e"
+                },
+                {
+                    "user": "6a1fedeab742443066ce8170",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:58.041Z",
+                    "updatedAt": "2026-06-03T09:05:58.041Z",
+                    "_id": "6a1fee76b742443066ce8a5f"
+                },
+                {
+                    "user": "6a1fee21b742443066ce85bf",
+                    "status": "active",
+                    "enableEnrolmentDates": false,
+                    "enrolmentStartsDate": null,
+                    "enrolmentEndsDate": null,
+                    "createdAt": "2026-06-03T09:05:58.042Z",
+                    "updatedAt": "2026-06-03T09:05:58.042Z",
+                    "_id": "6a1fee76b742443066ce8a60"
+                }
+            ],
+            "createdAt": "2026-04-13T06:45:20.289Z",
+            "updatedAt": "2026-06-03T09:05:58.044Z",
+            "__v": 4,
+            "updatedBy": "69c384a66abf6c550fe45f75",
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "6a2fb9c41a1eeb7fc151606f",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "HTD",
+            "category": "Software Develp[ment",
+            "courseCode": "APL-BTC-H-003",
+            "courseName": "Full Stack",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Advanced",
+            "courseImage": "https://llfqpwsrmbyngzoxheua.storage.supabase.co/storage/v1/object/public/smartlms/course/image/1781512643513_ChatGPTImageMay13202612_21_09PM.png",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python"
+                ],
+                "frontend": [
+                    "html",
+                    "js",
+                    "react",
+                    "next",
+                    "css"
+                ],
+                "database": [
+                    "mongodb",
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Theory",
+                "Lecture"
+            ],
+            "We_Do": [
+                "Practical",
+                "Assignments"
+            ],
+            "You_Do": [
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-06-15T08:37:24.501Z",
+            "updatedAt": "2026-06-15T08:37:24.501Z",
+            "__v": 4,
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        },
+        {
+            "_id": "6a323a9cfcebb138f4f397d4",
+            "institution": "696e0695d744732a85dabc44",
+            "clientName": "ABC Pvt Ltd",
+            "serviceType": "business to Corporates",
+            "serviceModal": "TD",
+            "category": "fullstack",
+            "courseCode": "APL-BTC-T-002",
+            "courseName": "python",
+            "courseDescription": "",
+            "courseDuration": "",
+            "courseLevel": "Intermediate",
+            "courseImage": "https://llfqpwsrmbyngzoxheua.storage.supabase.co/storage/v1/object/public/smartlms/course/image/1781676699541_icons8-users-96.png",
+            "resourcesType": {
+                "iDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": true,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "weDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                },
+                "youDo": {
+                    "url": {
+                        "enabled": false
+                    },
+                    "aiChat": {
+                        "enabled": false
+                    },
+                    "aiSummary": {
+                        "enabled": false
+                    },
+                    "notes": {
+                        "enabled": false
+                    },
+                    "video": {
+                        "enabled": false,
+                        "maxSize": 50,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "mp4",
+                            "mov",
+                            "avi",
+                            "webm"
+                        ]
+                    },
+                    "ppt": {
+                        "enabled": false,
+                        "maxSize": 20,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "ppt",
+                            "pptx"
+                        ]
+                    },
+                    "pdf": {
+                        "enabled": false,
+                        "maxSize": 10,
+                        "aiChat": false,
+                        "aiSummary": false,
+                        "allowedFormats": [
+                            "pdf"
+                        ]
+                    }
+                }
+            },
+            "aiChatGlobal": false,
+            "testConfiguration": {
+                "coreProgram": [
+                    "python"
+                ],
+                "frontend": [
+                    "html",
+                    "css",
+                    "js",
+                    "react",
+                    "next"
+                ],
+                "database": [
+                    "mongodb",
+                    "mysql"
+                ]
+            },
+            "courseHierarchy": [
+                "Module",
+                "Sub Module",
+                "Topic"
+            ],
+            "I_Do": [
+                "Lecture"
+            ],
+            "We_Do": [
+                "Assignments"
+            ],
+            "You_Do": [
+                "Assesments"
+            ],
+            "groups": [
+                
+            ],
+            "createdBy": "sam@gmail.com",
+            "singleParticipants": [
+                
+            ],
+            "createdAt": "2026-06-17T06:11:40.333Z",
+            "updatedAt": "2026-06-17T06:11:40.333Z",
+            "__v": 0,
+            "clientData": {
+                "contactPersons": [
+                    {
+                        "name": "John Doe",
+                        "email": "john@example.com",
+                        "phoneNumber": "9876543210",
+                        "isPrimary": true,
+                        "_id": "69c3887eb9e46fa85adfeb7e"
+                    }
+                ],
+                "clientCompany": "ABC Pvt Ltd",
+                "description": "IT Services Company",
+                "clientAddress": "Chennai, India",
+                "clientLogo": "https://example.com/logo.png",
+                "status": "active",
+                "createdAt": "2026-03-25T07:02:21.991Z",
+                "createdBy": "sam@gmail.com",
+                "_id": "69c3887db9e46fa85adfeb7d",
+                "updatedAt": "2026-03-25T07:02:22.007Z"
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getAllInsititute" classname="com.http.getInsitiution" time="0.951">
+    <system-out><![CDATA[Closing the Testing
+
+Base URL set
+{
+    "message": [
+        {
+            "key": "success",
+            "value": "Institution Retrieved successfully"
+        }
+    ],
+    "getAllInstitution": [
+        {
+            "_id": "683d3cd3684c38657962bc9c",
+            "inst_id": "INS001",
+            "inst_name": "SmartCliff",
+            "inst_owner": "KNS",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "skilling"
+        },
+        {
+            "_id": "68677130fa6b228f5bccccb1",
+            "inst_id": "INS002",
+            "inst_name": "KIOT College",
+            "inst_owner": "Geralt",
+            "phone": "9876543212",
+            "address": "Salem",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "college"
+        },
+        {
+            "_id": "686b495d972fac51432c31dd",
+            "inst_id": "INS003",
+            "inst_name": "KIOT",
+            "inst_owner": "Sarathi",
+            "phone": "9876543212",
+            "address": "Salem",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "6909820ad674bf8e94c19ce6",
+            "inst_id": "INS004",
+            "inst_name": "RVS College",
+            "inst_owner": "xyz",
+            "phone": "9876543212",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "693540e6b81e809c9d4c2a46",
+            "inst_id": "INS005",
+            "inst_name": "Rooban Own",
+            "inst_owner": "Rooban",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-12-07T05:31:36.345Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "college"
+        },
+        {
+            "_id": "696e0695d744732a85dabc44",
+            "inst_id": "INS030",
+            "inst_name": "PSG",
+            "inst_owner": "Gopal",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "skilling"
+        }
+    ]
+}
+{
+    "message": [
+        {
+            "key": "success",
+            "value": "Institution Retrieved successfully"
+        }
+    ],
+    "getAllInstitution": [
+        {
+            "_id": "683d3cd3684c38657962bc9c",
+            "inst_id": "INS001",
+            "inst_name": "SmartCliff",
+            "inst_owner": "KNS",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "skilling"
+        },
+        {
+            "_id": "68677130fa6b228f5bccccb1",
+            "inst_id": "INS002",
+            "inst_name": "KIOT College",
+            "inst_owner": "Geralt",
+            "phone": "9876543212",
+            "address": "Salem",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "college"
+        },
+        {
+            "_id": "686b495d972fac51432c31dd",
+            "inst_id": "INS003",
+            "inst_name": "KIOT",
+            "inst_owner": "Sarathi",
+            "phone": "9876543212",
+            "address": "Salem",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "6909820ad674bf8e94c19ce6",
+            "inst_id": "INS004",
+            "inst_name": "RVS College",
+            "inst_owner": "xyz",
+            "phone": "9876543212",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0
+        },
+        {
+            "_id": "693540e6b81e809c9d4c2a46",
+            "inst_id": "INS005",
+            "inst_name": "Rooban Own",
+            "inst_owner": "Rooban",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-12-07T05:31:36.345Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "college"
+        },
+        {
+            "_id": "696e0695d744732a85dabc44",
+            "inst_id": "INS030",
+            "inst_name": "PSG",
+            "inst_owner": "Gopal",
+            "phone": "9876543210",
+            "address": "Coimbatore",
+            "createdAt": "2025-06-02T05:55:26.875Z",
+            "createdBy": "roobankr5@gmail.com",
+            "__v": 0,
+            "basedOn": "skilling"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getRoles" classname="com.http.GetRoles" time="0.717">
+    <system-out><![CDATA[Closing the Testing
+
+Base URL set
+Get all roles
+{
+    "message": [
+        {
+            "key": "error",
+            "value": "User is not logged in"
+        }
+    ]
+}
+Response body: {
+    "message": [
+        {
+            "key": "error",
+            "value": "User is not logged in"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-17T21:44:29 IST" name="API Testing Suite" finished-at="2026-06-17T21:44:53 IST" duration-ms="24610">
+    <groups>
+    </groups>
+    <test started-at="2026-06-17T21:44:29 IST" name="All API Tests" finished-at="2026-06-17T21:44:53 IST" duration-ms="24610">
+      <class name="com.http.GetRoles">
+        <test-method signature="getRoles()[pri:5, instance:com.http.GetRoles@6d763516]" started-at="2026-06-17T21:44:52 IST" name="getRoles" description="get All roles " finished-at="2026-06-17T21:44:53 IST" depends-on-methods="ValidLogin" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRoles -->
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.http.GetRoles@6d763516]" started-at="2026-06-17T21:44:52 IST" name="setup_base" finished-at="2026-06-17T21:44:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.http.GetRoles@6d763516]" started-at="2026-06-17T21:44:53 IST" name="close" finished-at="2026-06-17T21:44:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.http.GetRoles -->
+      <class name="com.http.getCourse">
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.http.getCourse@6b81ce95]" started-at="2026-06-17T21:44:49 IST" name="setup_base" finished-at="2026-06-17T21:44:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method signature="get_course()[pri:4, instance:com.http.getCourse@6b81ce95]" started-at="2026-06-17T21:44:49 IST" name="get_course" finished-at="2026-06-17T21:44:51 IST" depends-on-methods="ValidLogin" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_course -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.http.getCourse@6b81ce95]" started-at="2026-06-17T21:44:51 IST" name="close" finished-at="2026-06-17T21:44:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.http.getCourse -->
+      <class name="com.http.loginAPi">
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.http.loginAPi@52bf72b5]" started-at="2026-06-17T21:44:32 IST" name="setup_base" finished-at="2026-06-17T21:44:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method signature="ValidLogin()[pri:2, instance:com.http.loginAPi@52bf72b5]" started-at="2026-06-17T21:44:32 IST" name="ValidLogin" finished-at="2026-06-17T21:44:37 IST" duration-ms="5364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.http.loginAPi@52bf72b5]" started-at="2026-06-17T21:44:37 IST" name="close" finished-at="2026-06-17T21:44:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.http.loginAPi -->
+      <class name="com.http.getInsitiution">
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.http.getInsitiution@2a798d51]" started-at="2026-06-17T21:44:51 IST" name="setup_base" finished-at="2026-06-17T21:44:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method signature="getAllInsititute()[pri:3, instance:com.http.getInsitiution@2a798d51]" started-at="2026-06-17T21:44:51 IST" name="getAllInsititute" finished-at="2026-06-17T21:44:52 IST" depends-on-methods="get_base, ValidLogin" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllInsititute -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.http.getInsitiution@2a798d51]" started-at="2026-06-17T21:44:52 IST" name="close" finished-at="2026-06-17T21:44:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.http.getInsitiution -->
+      <class name="com.crud.create_api">
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:37 IST" name="setup_base" finished-at="2026-06-17T21:44:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method signature="Create()[pri:6, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:37 IST" name="Create" description="Create a new note using valid bearer token" finished-at="2026-06-17T21:44:39 IST" depends-on-methods="com.http.loginAPi.ValidLogin" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+        <test-method signature="GetNoteById()[pri:7, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:39 IST" name="GetNoteById" description="Get created note by note ID" finished-at="2026-06-17T21:44:41 IST" depends-on-methods="com.crud.create_api.Create" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetNoteById -->
+        <test-method signature="UpdateNoteById()[pri:8, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:41 IST" name="UpdateNoteById" description="Update note details by note ID" finished-at="2026-06-17T21:44:43 IST" depends-on-methods="com.crud.create_api.GetNoteById" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateNoteById -->
+        <test-method signature="GetAllNotes()[pri:9, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:43 IST" name="GetAllNotes" description="Get all notes with pagination query parameters" finished-at="2026-06-17T21:44:45 IST" depends-on-methods="com.crud.create_api.Create" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllNotes -->
+        <test-method signature="TogglePinNoteById()[pri:10, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:45 IST" name="TogglePinNoteById" description="Toggle pin status of note by note ID" finished-at="2026-06-17T21:44:47 IST" depends-on-methods="com.crud.create_api.UpdateNoteById" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TogglePinNoteById -->
+        <test-method signature="DeleteNoteById()[pri:11, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:47 IST" name="DeleteNoteById" description="Delete note by note ID" finished-at="2026-06-17T21:44:49 IST" depends-on-methods="com.crud.create_api.TogglePinNoteById" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNoteById -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.crud.create_api@37afeb11]" started-at="2026-06-17T21:44:49 IST" name="close" finished-at="2026-06-17T21:44:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.crud.create_api -->
+      <class name="com.http.Base_Api_Test">
+        <test-method is-config="true" signature="setup_base()[pri:0, instance:com.http.Base_Api_Test@9f116cc]" started-at="2026-06-17T21:44:29 IST" name="setup_base" finished-at="2026-06-17T21:44:29 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_base -->
+        <test-method signature="get_base()[pri:1, instance:com.http.Base_Api_Test@9f116cc]" started-at="2026-06-17T21:44:29 IST" name="get_base" finished-at="2026-06-17T21:44:32 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_base -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.http.Base_Api_Test@9f116cc]" started-at="2026-06-17T21:44:32 IST" name="close" finished-at="2026-06-17T21:44:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.http.Base_Api_Test -->
+    </test> <!-- All API Tests -->
+  </suite> <!-- API Testing Suite -->
+</testng-results>

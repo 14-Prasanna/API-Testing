@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Testing Suite">
+
+    <test name="All API Tests">
+        <packages>
+            <package name="com.http"/>
+            <package name="com.crud"></package>
+        </packages>
+    </test>
+
+</suite>
